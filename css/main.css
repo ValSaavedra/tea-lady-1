@@ -1,1 +1,28 @@
 /* Escribe acá tus estilos*/
+*{
+
+header h1 {
+	font-size: 40px;
+	background-color: #A4D
+}
+
+button {.btn {
+  background: #00f756;
+  background-image: -webkit-linear-gradient(top, #00f756, #2bb890);
+  background-image: -moz-linear-gradient(top, #00f756, #2bb890);
+  background-image: -ms-linear-gradient(top, #00f756, #2bb890);
+  background-image: -o-linear-gradient(top, #00f756, #2bb890);
+  background-image: linear-gradient(to bottom, #00f756, #2bb890);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+button :hover {
+  background: #269635;
+  text-decoration: none;
+}
